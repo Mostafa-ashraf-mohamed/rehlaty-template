@@ -18,7 +18,7 @@ Welcome to Rehlaty-Template, a simple HTML and SCSS template for a traveling age
 - SCSS (Sass)
 
 ## Getting Started
-1. Clone the repository: `git clone https://github.com/yourusername/rehlaty-template.git`
+1. Clone the repository: `git clone https://github.com/Mostafa-ashraf-mohamed/rehlaty-template.git`
 2. Open the project directory.
 3. Launch the `index.html` file in your preferred web browser.
 4. Explore the template and its features.
