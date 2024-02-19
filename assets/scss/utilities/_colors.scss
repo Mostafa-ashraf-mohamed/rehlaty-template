@@ -1,0 +1,34 @@
+//Colors
+$colors: (
+  //page colors
+  "primary-color": #fec430,
+  "primary-light-color": #ffe7ac,
+  "second-color": #46368b,
+  "base-color": #ffffff,
+  "black-color": black
+);
+$color-light-blue: #f1effd;
+$font-colors: (
+  //font colors
+  "font-color-1": #191919,
+  "font-color-2": #a5a5a5,
+  "font-color-3": #ffffff
+);
+
+@each $name, $color in $colors {
+  .bg-#{$name} {
+    background-color: $color !important;
+  }
+}
+
+@each $name, $font-color in $font-colors {
+  .#{$name} {
+    color: $font-color !important;
+  }
+}
+
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+  }
+}

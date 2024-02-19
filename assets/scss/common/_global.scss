@@ -1,0 +1,67 @@
+/* global css*/
+* {
+  font-family: $font-family-default;
+  margin: 0;
+  padding: 0;
+}
+.text-align-center {
+  text-align: center;
+}
+/*a*/
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: map-get($colors, "base-color");
+}
+a:hover {
+  color: map-get($colors, "base-color");
+}
+.link {
+  color: #755ae8;
+  &:hover {
+    color: #745ae881;
+  }
+}
+
+/*list*/
+.list-reset {
+  list-style: none;
+}
+
+/*button*/
+.button-reset {
+  border: none;
+  background: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+%arrow-icon-style {
+  padding: 10px 0;
+  span {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+  }
+  img {
+    border-radius: 100%;
+    padding: 11px 12px;
+    margin-left: 12px;
+    background-color: map-get($colors, "base-color");
+  }
+}
+.button-arrow-icon {
+  @extend %arrow-icon-style;
+}
+.button-outline-arrow-icon {
+  @extend %arrow-icon-style;
+  border: 1px solid map-get($colors, "bace-color");
+}
+/**/
+.divider {
+  height: 1px;
+  color: #4c4c4c;
+  border-color: #4c4c4c;
+  background-color: #4c4c4c;
+  margin: 32px 0;
+  width: 100%;
+}

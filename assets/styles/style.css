@@ -1,0 +1,1113 @@
+.bg-primary-color {
+  background-color: #fec430 !important;
+}
+
+.bg-primary-light-color {
+  background-color: #ffe7ac !important;
+}
+
+.bg-second-color {
+  background-color: #46368b !important;
+}
+
+.bg-base-color {
+  background-color: #ffffff !important;
+}
+
+.bg-black-color {
+  background-color: black !important;
+}
+
+.font-color-1 {
+  color: #191919 !important;
+}
+
+.font-color-2 {
+  color: #a5a5a5 !important;
+}
+
+.font-color-3 {
+  color: #ffffff !important;
+}
+
+.primary-color {
+  color: #fec430;
+}
+
+.primary-light-color {
+  color: #ffe7ac;
+}
+
+.second-color {
+  color: #46368b;
+}
+
+.base-color {
+  color: #ffffff;
+}
+
+.black-color {
+  color: black;
+}
+
+@font-face {
+  font-family: LamaSans;
+  src: url("../fonts/LamaSans-SemiBold.ttf");
+}
+main #contact-us p.title, main #customer-feedback p.title, main #pricing p.title, main #services-group p.title, main #destination-services p.title {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+}
+
+main #contact-us h2.title-head, main #customer-feedback h2.title-head, main #pricing h2.title-head, main #services-group h2.title-head, main #destination-services h2.title-head {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+}
+
+main #contact-us .contact-us-container .contact-sec, main #contact-us .contact-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media query for tablets */
+@media (min-width: 577px) and (max-width: 1280px) {
+  main #customer-feedback p.title, main #pricing p.title, main #services-group p.title, main #destination-services p.title {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+  main #customer-feedback h2.title-head, main #pricing h2.title-head, main #services-group h2.title-head, main #destination-services h2.title-head {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+  }
+}
+/* Media query for desktops */
+@media (min-width: 1281px) {
+  main #contact-us p.title, main #customer-feedback p.title, main #pricing p.title, main #services-group p.title, main #destination-services p.title {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+  main #contact-us h2.title-head, main #customer-feedback h2.title-head, main #pricing h2.title-head, main #services-group h2.title-head, main #destination-services h2.title-head {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+  }
+}
+/*container*/
+.box-container {
+  margin: 76px 20px;
+}
+
+/* Media query for tablets */
+@media (min-width: 577px) and (max-width: 1280px) {
+  .box-container-md {
+    margin: 124px 60px;
+  }
+}
+/* Media query for desktops */
+@media (min-width: 1281px) {
+  .box-container-lg {
+    margin: 124px 60px;
+  }
+}
+/*grid system*/
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+@media (max-width: 576px) {
+  .col-mobile-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333% !important;
+  }
+  .col-mobile-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667% !important;
+  }
+  .col-mobile-3 {
+    flex: 0 0 auto;
+    width: 25% !important;
+  }
+  .col-mobile-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333% !important;
+  }
+  .col-mobile-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667% !important;
+  }
+  .col-mobile-6 {
+    flex: 0 0 auto;
+    width: 50% !important;
+  }
+  .col-mobile-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333% !important;
+  }
+  .col-mobile-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667% !important;
+  }
+  .col-mobile-9 {
+    flex: 0 0 auto;
+    width: 75% !important;
+  }
+  .col-mobile-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333% !important;
+  }
+  .col-mobile-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667% !important;
+  }
+  .col-mobile-12 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .col-tablet-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333% !important;
+  }
+  .col-tablet-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667% !important;
+  }
+  .col-tablet-3 {
+    flex: 0 0 auto;
+    width: 25% !important;
+  }
+  .col-tablet-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333% !important;
+  }
+  .col-tablet-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667% !important;
+  }
+  .col-tablet-6 {
+    flex: 0 0 auto;
+    width: 50% !important;
+  }
+  .col-tablet-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333% !important;
+  }
+  .col-tablet-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667% !important;
+  }
+  .col-tablet-9 {
+    flex: 0 0 auto;
+    width: 75% !important;
+  }
+  .col-tablet-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333% !important;
+  }
+  .col-tablet-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667% !important;
+  }
+  .col-tablet-12 {
+    flex: 0 0 auto;
+    width: 100% !important;
+  }
+}
+.col-1 {
+  flex: 0 0 auto;
+  width: 8.3333333333%;
+}
+
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.6666666667%;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+}
+
+.col-5 {
+  flex: 0 0 auto;
+  width: 41.6666666667%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.3333333333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.6666666667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.3333333333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.6666666667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+/* global css*/
+* {
+  font-family: "LamaSans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+/*a*/
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.link {
+  color: #755ae8;
+}
+.link:hover {
+  color: rgba(116, 90, 232, 0.5058823529);
+}
+
+/*list*/
+.list-reset {
+  list-style: none;
+}
+
+/*button*/
+.button-reset {
+  border: none;
+  background: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button-outline-arrow-icon, .button-arrow-icon {
+  padding: 10px 0;
+}
+.button-outline-arrow-icon span, .button-arrow-icon span {
+  display: inline-block;
+  vertical-align: top;
+  padding: 5px;
+}
+.button-outline-arrow-icon img, .button-arrow-icon img {
+  border-radius: 100%;
+  padding: 11px 12px;
+  margin-left: 12px;
+  background-color: #ffffff;
+}
+
+.button-outline-arrow-icon {
+  border: 1px solid;
+}
+
+/**/
+.divider {
+  height: 1px;
+  color: #4c4c4c;
+  border-color: #4c4c4c;
+  background-color: #4c4c4c;
+  margin: 32px 0;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 700px;
+  background-image: url(../img/header-background-mob.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+}
+header nav {
+  margin: 0 20px;
+}
+header nav .brand {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 26px;
+}
+header nav a.link-tab,
+header nav ul {
+  display: none;
+}
+header nav .button-toggle {
+  background-color: #ffffff;
+  border-radius: 6px;
+  padding: 9px 8px;
+  width: 34px;
+  height: 34px;
+  float: left;
+}
+header .header-contant {
+  text-align: center;
+  padding: 0 0px;
+  width: 295px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+header .header-contant h1 {
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 49px;
+  margin-bottom: 18px;
+  margin-top: 80px;
+}
+header .header-contant p {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 36px;
+}
+header .header-contant button {
+  width: 100%;
+}
+header .header-contant button span {
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+}
+header .header-contant div.down {
+  margin-top: 92px;
+  position: relative;
+}
+header .header-contant div.down p {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 18px;
+}
+header .header-contant div.down img.arrow-img {
+  position: absolute;
+  top: -55px;
+  left: -8px;
+}
+
+@media (min-width: 577px) and (max-width: 1280px) {
+  header {
+    height: 740px;
+    background-image: url(../img/header-background-desktop.jpg);
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  header nav a.link-tab {
+    display: inline-block;
+  }
+  header nav ul.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+  }
+  header nav ul.nav-list li.list-items {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  header nav a.link-tab .hidden {
+    display: none;
+  }
+  header nav .button-toggle {
+    display: none;
+  }
+  header .header-contant {
+    width: 612px;
+    margin: 190px auto;
+    text-align: right;
+    padding: 0 0px;
+    text-align: center;
+  }
+  header .header-contant h1 {
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 69px;
+    margin-bottom: 28px;
+  }
+  header .header-contant p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 80%;
+    margin-right: 0;
+  }
+  header .header-contant button {
+    width: 30%;
+  }
+  header .header-contant button span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  header .header-contant div.down {
+    width: 30%;
+    margin-top: 96px;
+    margin: 92px auto 0 auto;
+    position: relative;
+  }
+  header .header-contant div.down p {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 1px auto;
+  }
+  header .header-contant div.down img.arrow-img {
+    position: absolute;
+    top: -55px;
+    left: -8px;
+  }
+}
+@media (min-width: 1281px) {
+  header {
+    height: 870px;
+    background-image: url(../img/header-background-desktop.jpg);
+  }
+  header nav {
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  header nav a.link-tab {
+    display: inline-block;
+  }
+  header nav ul.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+  }
+  header nav ul.nav-list li.list-items {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #ffffff;
+  }
+  header nav a.link-tab .hidden {
+    vertical-align: top;
+  }
+  header nav .button-toggle {
+    display: none;
+  }
+  header .header-contant {
+    width: 752px;
+    margin: 190px auto;
+  }
+  header .header-contant h1 {
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 69px;
+    margin-bottom: 28px;
+  }
+  header .header-contant p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    width: 80%;
+    margin-right: 10%;
+  }
+  header .header-contant button {
+    width: 30%;
+  }
+  header .header-contant button span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  header .header-contant div.down {
+    width: 30%;
+    margin-top: 96px;
+    margin: 92px auto 0 auto;
+    position: relative;
+  }
+  header .header-contant div.down p {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: 1px auto;
+  }
+  header .header-contant div.down img.arrow-img {
+    position: absolute;
+    top: -55px;
+    left: -8px;
+  }
+}
+/*mobile styles*/
+/*navigation bar*/
+main #destination-services {
+  margin: 76px 20px 76px 0;
+}
+main #destination-services p.title {
+  margin-bottom: 12px;
+}
+main #destination-services h2.title-head {
+  margin-bottom: 48px;
+}
+main #destination-services .destination-services-card-container {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+main #destination-services .destination-services-card-container .destination-services-card {
+  flex-shrink: 0;
+  width: 235px;
+  height: 370px;
+  position: relative;
+}
+main #destination-services .destination-services-card-container .destination-services-card img {
+  width: 100%;
+  height: 100%;
+}
+main #destination-services .destination-services-card-container .destination-services-card .destination-services-card-details {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  width: 80%;
+  border-radius: 16px;
+  padding: 17px 12px;
+}
+main #destination-services .destination-services-card-container .destination-services-card .destination-services-card-details h3 {
+  font-size: 17px;
+  font-weight: 900;
+  line-height: 17px;
+  margin-bottom: 14px;
+}
+main #destination-services .destination-services-card-container .destination-services-card .destination-services-card-details p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+}
+main #services-group p.title {
+  margin-bottom: 12px;
+}
+main #services-group h2.title-head {
+  margin-bottom: 38px;
+}
+main #services-group .container {
+  padding: 64px 35px;
+  border-radius: 25px;
+  background-color: #f1effd;
+  position: relative;
+}
+main #services-group .container img.point-arrow {
+  position: absolute;
+  top: -5px;
+  left: 33px;
+}
+main #services-group .container div.row h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+main #services-group .container div.row p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+main #services-group .container div.row img {
+  width: 140;
+  height: 140px;
+  margin-bottom: 28px;
+  margin-top: 40px;
+}
+main #pricing {
+  text-align: right;
+}
+main #pricing p.title {
+  margin-bottom: 12px;
+  text-align: right;
+}
+main #pricing h2.title-head {
+  margin-bottom: 38px;
+  text-align: right;
+}
+main #pricing .pricing-card {
+  box-shadow: 10px 10px 0px 0px #000000;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  padding: 36px 24px;
+}
+main #pricing .pricing-card .pricing-details p.price {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+main #pricing .pricing-card .pricing-details p.price span {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+}
+main #pricing .pricing-card .pricing-details p.plan {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+main #pricing .pricing-card .pricing-details p.description {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+}
+main #pricing .pricing-card .pricing-benefits ul {
+  padding-right: 24px;
+  list-style-image: url("../svg/check-icon.svg");
+}
+main #pricing .pricing-card button {
+  width: 100%;
+  margin-top: 44px;
+  padding: 15px 73px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+}
+main #customer-feedback p.title {
+  margin-bottom: 12px;
+}
+main #customer-feedback h2.title-head {
+  margin-bottom: 48px;
+}
+main #customer-feedback .customer-feedback-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main #customer-feedback .customer-feedback-cards .customer-comment {
+  background-color: #f1effd;
+  border-radius: 25px;
+  padding: 32px 24px;
+  margin-bottom: 32px;
+}
+main #customer-feedback .customer-feedback-cards .customer-comment .rating {
+  margin-bottom: 18px;
+}
+main #customer-feedback .customer-feedback-cards .customer-comment .customer-profile {
+  display: flex;
+  margin-bottom: 18px;
+}
+main #customer-feedback .customer-feedback-cards .customer-comment .customer-profile img {
+  width: 50px;
+  height: 48px;
+  border-radius: 100%;
+}
+main #customer-feedback .customer-feedback-cards .customer-comment .customer-profile h3 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  align-self: center;
+  margin-right: 13px;
+}
+main #customer-feedback .customer-feedback-cards .customer-comment .comment {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+}
+main #customer-feedback .customer-feedback-cards .card-nav {
+  display: none;
+}
+main #contact-us p.title {
+  margin-bottom: 12px;
+}
+main #contact-us h2.title-head {
+  margin-bottom: 48px;
+}
+main #contact-us .contact-us-container {
+  gap: 56px;
+}
+main #contact-us .contact-us-container .form-cont {
+  box-shadow: 10px 10px 0px 0px #000000;
+  padding: 44px 22px;
+  border-radius: 25px;
+}
+main #contact-us .contact-us-container .form-cont div label {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+main #contact-us .contact-us-container .form-cont div input,
+main #contact-us .contact-us-container .form-cont div textarea {
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 16px 12px;
+  width: 90%;
+  margin-bottom: 24px;
+  resize: none;
+}
+main #contact-us .contact-us-container .form-cont button {
+  width: 100%;
+  padding: 18px 80px;
+}
+main #contact-us .contact-us-container .contact-sec {
+  gap: 40px;
+}
+main #contact-us .contact-us-container .contact-sec .contact-sec-info {
+  text-align: center;
+}
+main #contact-us .contact-us-container .contact-sec .contact-sec-info img {
+  width: 50%;
+  height: 50%;
+}
+main #contact-us .contact-us-container .contact-sec .contact-sec-info .contact-sec-info-contant h3 {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  margin-top: 28px;
+  margin-bottom: 20px;
+}
+main #contact-us .contact-us-container .contact-sec .contact-sec-info .contact-sec-info-contant p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+}
+main footer {
+  display: flex;
+  background-color: #191919;
+}
+main footer .links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+main footer .links ul {
+  margin-bottom: 44px;
+}
+main footer .links ul li.link-tab {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+main footer .links ul li.link-head {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+main footer .company p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: -0.03em;
+  margin-bottom: 44px;
+}
+main footer .the-end {
+  margin-bottom: 44px;
+}
+main footer .the-end p {
+  margin-bottom: 28px;
+}
+main footer .the-end a {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 0 16px;
+}
+
+/* Media query for tablets */
+@media (min-width: 577px) and (max-width: 1280px) {
+  main #destination-services h2.title-head {
+    margin-bottom: 64px;
+  }
+  main #destination-services .destination-services-card-container {
+    gap: 43px;
+  }
+  main #destination-services .destination-services-card-container .destination-services-card {
+    flex-shrink: 0;
+    width: 380px;
+    height: 600px;
+  }
+  main #destination-services .destination-services-card-container .destination-services-card .destination-services-card-details {
+    bottom: 32px;
+    left: 24px;
+  }
+  main #services-group .container {
+    padding: 20px 35px;
+  }
+  main #services-group .container img.point-arrow {
+    position: absolute;
+    top: -5px;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+  }
+  main #services-group .container div.row p {
+    font-size: 15px;
+    width: 80%;
+    margin: 1px auto;
+  }
+  main #services-group .container div.row h3 {
+    font-size: 20px;
+  }
+  main #services-group .container div.row img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 28px;
+  }
+  main #pricing p.title {
+    margin-bottom: 12px;
+  }
+  main #pricing h2.title-head {
+    margin-bottom: 38px;
+  }
+  main #pricing .pricing-card {
+    margin: 20px auto;
+    width: 370px;
+  }
+  main #pricing .row {
+    background-color: #a5a5a5;
+    padding: 20px 0;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  main #pricing .vertical-align-top {
+    margin-top: 0;
+  }
+  main #customer-feedback {
+    position: relative;
+  }
+  main #customer-feedback p.title {
+    margin-bottom: 12px;
+  }
+  main #customer-feedback h2.title-head {
+    margin-bottom: 48px;
+  }
+  main #customer-feedback .customer-feedback-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  main #customer-feedback .customer-feedback-cards .card-nav {
+    position: absolute;
+    display: flex;
+    gap: 24px;
+    bottom: -36px;
+    left: 47%;
+  }
+  main #customer-feedback .customer-feedback-cards .card-nav button {
+    box-shadow: 5px -4px 26px -11px rgb(0, 0, 0);
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: 2.5px solid white;
+    background-color: #755ae8;
+  }
+  main #customer-feedback .customer-feedback-cards .card-nav .left {
+    transform: rotate(-180deg);
+  }
+}
+/* Media query for desktops */
+@media (min-width: 1281px) {
+  main #destination-services {
+    margin: 124px 60px 124px 0;
+  }
+  main #destination-services .destination-services-card-container {
+    gap: 43px;
+  }
+  main #destination-services .destination-services-card-container .destination-services-card {
+    flex-shrink: 0;
+    width: 380px;
+    height: 600px;
+  }
+  main #destination-services .destination-services-card-container .destination-services-card .destination-services-card-details {
+    bottom: 32px;
+    left: 24px;
+  }
+  main #services-group .container img.point-arrow {
+    position: absolute;
+    top: -5px;
+    left: 40%;
+  }
+  main #services-group .container div.row p {
+    width: 80%;
+    margin: 1px auto;
+  }
+  main #services-group .container div.row img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 28px;
+  }
+  main #pricing {
+    /*spacing*/
+  }
+  main #pricing p.title {
+    margin-bottom: 12px;
+  }
+  main #pricing h2.title-head {
+    margin-bottom: 38px;
+  }
+  main #pricing .pricing-card {
+    width: 335px;
+  }
+  main #pricing .row {
+    justify-content: space-between;
+    margin-top: 111px;
+  }
+  main #pricing .vertical-align-bottom {
+    vertical-align: bottom;
+  }
+  main #pricing .vertical-align-top {
+    vertical-align: top;
+    margin-top: -60px;
+  }
+  main #customer-feedback {
+    position: relative;
+  }
+  main #customer-feedback p.title {
+    margin-bottom: 12px;
+  }
+  main #customer-feedback h2.title-head {
+    margin-bottom: 48px;
+  }
+  main #customer-feedback .customer-feedback-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  main #customer-feedback .customer-feedback-cards .card-nav {
+    position: absolute;
+    display: flex;
+    gap: 24px;
+    bottom: -36px;
+    left: 47%;
+  }
+  main #customer-feedback .customer-feedback-cards .card-nav button {
+    box-shadow: 5px -4px 26px -11px rgb(0, 0, 0);
+    padding: 8px 10px;
+    border-radius: 50%;
+    border: 2.5px solid white;
+    background-color: #755ae8;
+  }
+  main #customer-feedback .customer-feedback-cards .card-nav .left {
+    transform: rotate(-180deg);
+  }
+  main #contact-us p.title {
+    margin-bottom: 12px;
+  }
+  main #contact-us h2.title-head {
+    margin-bottom: 48px;
+  }
+  main #contact-us .contact-us-container {
+    gap: 64px;
+    justify-content: unset;
+    flex-direction: row;
+  }
+  main #contact-us .contact-us-container .form-cont {
+    width: 60%;
+  }
+  main #contact-us .contact-us-container .form-cont div input,
+  main #contact-us .contact-us-container .form-cont div textarea {
+    width: 95%;
+  }
+  main #contact-us .contact-us-container .contact-sec {
+    gap: 40px;
+  }
+  main #contact-us .contact-us-container .contact-sec .contact-sec-info {
+    text-align: right;
+    display: flex;
+    gap: 24px;
+  }
+  main #contact-us .contact-us-container .contact-sec .contact-sec-info img {
+    width: 20%;
+  }
+  main #contact-us .contact-us-container .contact-sec .contact-sec-info .contact-sec-info-contant {
+    width: 55%;
+  }
+  main footer {
+    background-color: #191919;
+  }
+  main footer .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main footer .company {
+    width: 25%;
+  }
+  main footer .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  main footer .links ul {
+    margin-right: 107px;
+  }
+  main footer .the-end {
+    display: flex;
+    justify-content: space-between;
+  }
+  main footer .the-end p {
+    margin-bottom: 0;
+  }
+  main footer .box-container-lg {
+    margin: 50px 60px 0 60px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+// fonts
+@font-face {
+  font-family: LamaSans;
+  src: url("../fonts/LamaSans-SemiBold.ttf");
+}
+$font-family-default: "LamaSans", sans-serif;
+
+%title-style {
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 16px;
+}
+%title-head-style {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+}
+%flex-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Media query for tablets */
+@media (min-width: 577px) and (max-width: 1280px) {
+  %title-style-tablets {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+  %title-head-style-tablets {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+  }
+}
+
+/* Media query for desktops */
+@media (min-width: 1281px) {
+  %title-style-desktops {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+  }
+  %title-head-style-desktops {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 48px;
+  }
+}

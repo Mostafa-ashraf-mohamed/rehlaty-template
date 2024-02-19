@@ -1,0 +1,60 @@
+/*container*/
+.box-container {
+  margin: 76px 20px;
+}
+
+/* Media query for tablets */
+@media (min-width: 577px) and (max-width: 1280px) {
+  .box-container-md {
+    margin: 124px 60px;
+  }
+}
+/* Media query for desktops */
+@media (min-width: 1281px) {
+  .box-container-lg {
+    margin: 124px 60px;
+  }
+}
+/*grid system*/
+$grid-columns: 12;
+$grid-gutter: 1rem;
+
+// Container for the grid
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $grid-gutter / 2;
+  padding-right: $grid-gutter / 2;
+}
+
+// Row for containing columns
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  margin-left: -$grid-gutter / 2;
+  margin-right: -$grid-gutter / 2;
+}
+
+$breakpoints: (
+  "mobile": 576px,
+  "tablet": 1024px,
+);
+
+@each $breakpoint, $width in $breakpoints {
+  @media (max-width: $width) {
+    @for $i from 1 through $grid-columns {
+      .col-#{$breakpoint}-#{$i} {
+        flex: 0 0 auto;
+        width: (100% / $grid-columns) * $i !important;
+      }
+    }
+  }
+}
+
+@for $i from 1 through $grid-columns {
+  .col-#{$i} {
+    flex: 0 0 auto;
+    width: (100% / $grid-columns) * $i;
+  }
+}

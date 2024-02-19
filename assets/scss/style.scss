@@ -1,0 +1,19 @@
+@import "utilities/colors";
+@import "utilities/font_style";
+@import "utilities/grid_system";
+@import "common/global";
+
+@import "components/header";
+
+/*mobile styles*/
+@import "components/mobile-default.scss";
+
+/* Media query for tablets */
+@media (min-width: 577px) and (max-width: 1280px) {
+  @import "components/tablet.scss";
+}
+
+/* Media query for desktops */
+@media (min-width: 1281px) {
+  @import "components/desktop.scss";
+}

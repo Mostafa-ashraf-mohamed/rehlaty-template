@@ -1,0 +1,181 @@
+main {
+  #destination-services {
+    margin: 124px 60px 124px 0;
+    p.title {
+      @extend %title-style-desktops;
+    }
+    h2.title-head {
+      @extend %title-head-style-desktops;
+    }
+    .destination-services-card-container {
+      gap: 43px;
+      .destination-services-card {
+        flex-shrink: 0;
+
+        width: 380px;
+        height: 600px;
+        .destination-services-card-details {
+          bottom: 32px;
+          left: 24px;
+        }
+      }
+    }
+  }
+
+  #services-group {
+    p.title {
+      @extend %title-style-desktops;
+    }
+    h2.title-head {
+      @extend %title-head-style-desktops;
+    }
+    .container {
+      img.point-arrow {
+        position: absolute;
+        top: -5px;
+        left: 40%;
+      }
+      div.row {
+        p {
+          width: 80%;
+          margin: 1px auto;
+        }
+        img {
+          width: 200px;
+          height: 200px;
+          margin-bottom: 28px;
+        }
+      }
+    }
+  }
+
+  #pricing {
+    p.title {
+      @extend %title-style-desktops;
+      margin-bottom: 12px;
+    }
+    h2.title-head {
+      @extend %title-head-style-desktops;
+      margin-bottom: 38px;
+    }
+    .pricing-card {
+      width: 335px;
+    }
+    .row {
+      justify-content: space-between;
+      margin-top: 111px;
+    }
+    /*spacing*/
+    .vertical-align-bottom {
+      vertical-align: bottom;
+    }
+    .vertical-align-top {
+      vertical-align: top;
+      margin-top: -60px;
+    }
+  }
+
+  #customer-feedback {
+    position: relative;
+    p.title {
+      @extend %title-style-desktops;
+      margin-bottom: 12px;
+    }
+    h2.title-head {
+      @extend %title-head-style-desktops;
+      margin-bottom: 48px;
+    }
+    .customer-feedback-cards {
+      display: flex;
+      flex-direction: row;
+      gap: 24px;
+      .card-nav {
+        position: absolute;
+        display: flex;
+        gap: 24px;
+        bottom: -36px;
+        left: 47%;
+        button {
+          -webkit-box-shadow: 5px -4px 26px -11px rgba(0, 0, 0, 1);
+          -moz-box-shadow: 5px -4px 26px -11px rgba(0, 0, 0, 1);
+          box-shadow: 5px -4px 26px -11px rgba(0, 0, 0, 1);
+          padding: 8px 10px;
+          border-radius: 50%;
+          border: 2.5px solid white;
+          background-color: #755ae8;
+        }
+        .left {
+          transform: rotate(-180deg);
+        }
+      }
+    }
+  }
+
+  #contact-us {
+    p.title {
+      @extend %title-style-desktops;
+      margin-bottom: 12px;
+    }
+    h2.title-head {
+      @extend %title-head-style-desktops;
+      margin-bottom: 48px;
+    }
+    .contact-us-container {
+      gap: 64px;
+      justify-content: unset;
+      flex-direction: row;
+      .form-cont {
+        width: 60%;
+        div {
+          input,
+          textarea {
+            width: 95%;
+          }
+        }
+      }
+      .contact-sec {
+        gap: 40px;
+        .contact-sec-info {
+          text-align: right;
+          display: flex;
+          gap: 24px;
+          img {
+            width: 20%;
+          }
+          .contact-sec-info-contant {
+            width: 55%;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #191919;
+    .nav-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .company {
+      width: 25%;
+    }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      ul {
+        margin-right: 107px;
+      }
+    }
+    .the-end {
+      display: flex;
+      justify-content: space-between;
+      p {
+        margin-bottom: 0;
+      }
+    }
+    .box-container-lg {
+      margin: 50px 60px 0 60px;
+    }
+  }
+}
